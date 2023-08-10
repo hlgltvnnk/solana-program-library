@@ -13,15 +13,15 @@ test-sbf = []
 [dependencies]
 num-derive = "0.3"
 num-traits = "0.2"
-solana-program  = {git = "https://github.com/hlgltvnnk/solana", path ="sdk/program"}
+solana-program  = {git = "https://github.com/hlgltvnnk/solana" }
 spl-token = { version = "3.5", path = "../../token/program", features = [ "no-entrypoint" ] }
 thiserror = "1.0"
 uint = "0.9"
 borsh = "0.9.1"
 
 [dev-dependencies]
-solana-program-test = {git = "https://github.com/hlgltvnnk/solana", path ="program-test"}
-solana-sdk  = {git = "https://github.com/hlgltvnnk/solana", path ="sdk"}
+solana-program-test = {git = "https://github.com/hlgltvnnk/solana" }
+solana-sdk  = {git = "https://github.com/hlgltvnnk/solana" }
 
 [lib]
 crate-type = ["cdylib", "lib"]

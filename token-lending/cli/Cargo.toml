@@ -10,12 +10,12 @@ version = "0.2.0"
 
 [dependencies]
 clap = "2.33.3"
-solana-clap-utils = {git = "https://github.com/hlgltvnnk/solana", path ="clap-utils"}
-solana-cli-config = {git = "https://github.com/hlgltvnnk/solana", path ="cli-config"}
-solana-client  = {git = "https://github.com/hlgltvnnk/solana", path ="client"}
-solana-logger  = {git = "https://github.com/hlgltvnnk/solana", path ="logger"}
-solana-sdk  = {git = "https://github.com/hlgltvnnk/solana", path ="sdk"}
-solana-program  = {git = "https://github.com/hlgltvnnk/solana", path ="sdk/program"}
+solana-clap-utils = {git = "https://github.com/hlgltvnnk/solana" }
+solana-cli-config = { git = "https://github.com/hlgltvnnk/solana" }
+solana-client  = { git = "https://github.com/hlgltvnnk/solana" }
+solana-logger  = { git = "https://github.com/hlgltvnnk/solana" }
+solana-sdk  = {git = "https://github.com/hlgltvnnk/solana" }
+solana-program  = {git = "https://github.com/hlgltvnnk/solana" }
 spl-token-lending = { version = "0.2", path="../program", features = [ "no-entrypoint" ] }
 spl-token = { version = "3.5", path="../../token/program", features = [ "no-entrypoint" ]  }
 

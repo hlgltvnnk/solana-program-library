@@ -16,8 +16,8 @@ num-derive = "0.3"
 num-traits = "0.2"
 serde = "1.0.127"
 serde_derive = "1.0.103"
-solana-program  = {git = "https://github.com/hlgltvnnk/solana", path ="sdk/program"}
-solana-program-test = {git = "https://github.com/hlgltvnnk/solana", path ="program-test"}
-solana-sdk  = {git = "https://github.com/hlgltvnnk/solana", path ="sdk"}
+solana-program  = {git = "https://github.com/hlgltvnnk/solana" }
+solana-program-test = {git = "https://github.com/hlgltvnnk/solana" }
+solana-sdk  = {git = "https://github.com/hlgltvnnk/solana" }
 spl-token = { version = "3.5", path = "../../token/program", features = [ "no-entrypoint" ] }
 thiserror = "1.0"

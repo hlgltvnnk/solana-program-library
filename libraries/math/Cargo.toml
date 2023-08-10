@@ -16,14 +16,14 @@ borsh = "0.9"
 borsh-derive = "0.9.0"
 num-derive = "0.3"
 num-traits = "0.2"
-solana-program  = {git = "https://github.com/hlgltvnnk/solana", path ="sdk/program"}
+solana-program  = {git = "https://github.com/hlgltvnnk/solana" }
 thiserror = "1.0"
 uint = "0.9"
 
 [dev-dependencies]
 proptest = "1.0.0"
-solana-program-test = {git = "https://github.com/hlgltvnnk/solana", path ="program-test"}
-solana-sdk  = {git = "https://github.com/hlgltvnnk/solana", path ="sdk"}
+solana-program-test = {git = "https://github.com/hlgltvnnk/solana" }
+solana-sdk  = {git = "https://github.com/hlgltvnnk/solana" }
 libm = "0.2.2"
 
 [lib]

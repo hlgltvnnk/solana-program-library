@@ -8,7 +8,7 @@ license = "Apache-2.0"
 edition = "2021"
 
 [dependencies]
-solana-program  = {git = "https://github.com/hlgltvnnk/solana", path ="sdk/program"}
+solana-program  = {git = "https://github.com/hlgltvnnk/solana" }
 thiserror = "1.0.30"
 
 [lib]
