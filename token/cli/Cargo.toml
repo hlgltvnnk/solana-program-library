@@ -18,15 +18,15 @@ indicatif = "0.16.2"
 serde = "1.0.130"
 serde_derive = "1.0.103"
 serde_json = "1.0.68"
-solana-account-decoder = {git = "https://github.com/hlgltvnnk/solana" }
-solana-clap-utils = {git = "https://github.com/hlgltvnnk/solana" }
-solana-cli-config = { git = "https://github.com/hlgltvnnk/solana" }
-solana-cli-output = {git = "https://github.com/hlgltvnnk/solana" }
-solana-client  = { git = "https://github.com/hlgltvnnk/solana" }
-solana-logger  = { git = "https://github.com/hlgltvnnk/solana" }
-solana-remote-wallet  = {git = "https://github.com/hlgltvnnk/solana" }
-solana-sdk  = {git = "https://github.com/hlgltvnnk/solana" }
-solana-transaction-status  = {git = "https://github.com/hlgltvnnk/solana" }
+solana-account-decoder = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-clap-utils = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-cli-config = { git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-cli-output = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-client  = { git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-logger  = { git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-remote-wallet  = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-sdk  = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-transaction-status  = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
 spl-token = { version = "3.5", path="../program", features = [ "no-entrypoint" ] }
 spl-token-2022 = { version = "0.6", path="../program-2022", features = [ "no-entrypoint" ] }
 spl-token-client = { version = "0.4", path="../client" }
@@ -37,7 +37,7 @@ strum_macros = "0.24"
 tokio = "1.14"
 
 [dev-dependencies]
-solana-test-validator = {git = "https://github.com/hlgltvnnk/solana" }
+solana-test-validator = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
 assert_cmd = "2.0.4"
 serial_test = "0.8.0"
 tempfile = "3.4.0"
