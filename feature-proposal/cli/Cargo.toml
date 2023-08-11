@@ -9,7 +9,7 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.22"
-clap = "2.33.3"
+clap = "3.2.25"
 solana-clap-utils = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
 solana-cli-config = { git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
 solana-client  = { git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
