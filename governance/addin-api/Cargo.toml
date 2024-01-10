@@ -8,6 +8,7 @@ license = "Apache-2.0"
 edition = "2021"
 
 [dependencies]
-borsh = "1.3.0"
-spl-governance-tools = { version = "0.1.3", path = "../tools" }
-solana-program = { git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+borsh = "0.9.1"
+spl-governance-tools= { version = "0.1.3", path ="../tools"}
+solana-program  = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+
