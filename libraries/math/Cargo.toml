@@ -12,18 +12,18 @@ no-entrypoint = []
 test-sbf = []
 
 [dependencies]
-borsh = "0.9"
+borsh = "1.3.0"
 borsh-derive = "0.9.0"
 num-derive = "0.3"
 num-traits = "0.2"
-solana-program  = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-program = { git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
 thiserror = "1.0"
 uint = "0.9"
 
 [dev-dependencies]
 proptest = "1.0.0"
-solana-program-test = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
-solana-sdk  = {git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-program-test = { git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
+solana-sdk = { git = "https://github.com/hlgltvnnk/solana.git", branch = "update-dependencies" }
 libm = "0.2.2"
 
 [lib]
