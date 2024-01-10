@@ -2,7 +2,7 @@
 
 use core::panic;
 
-use borsh::maybestd::io::Write;
+use borsh::io::Write;
 
 use crate::{
     error::GovernanceError,

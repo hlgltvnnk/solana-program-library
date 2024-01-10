@@ -1,6 +1,6 @@
 //! Token Owner Record Account
 
-use borsh::maybestd::io::Write;
+use borsh::io::Write;
 use std::slice::Iter;
 
 use crate::{

@@ -1,6 +1,6 @@
 //! Proposal  Account
 
-use borsh::maybestd::io::Write;
+use borsh::io::Write;
 use solana_program::account_info::next_account_info;
 use std::cmp::Ordering;
 use std::slice::Iter;

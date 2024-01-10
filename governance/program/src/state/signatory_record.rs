@@ -1,6 +1,6 @@
 //! Signatory Record
 
-use borsh::maybestd::io::Write;
+use borsh::io::Write;
 
 use borsh::{BorshDeserialize, BorshSchema, BorshSerialize};
 

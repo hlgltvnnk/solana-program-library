@@ -1,6 +1,6 @@
 //! Realm Account
 
-use borsh::maybestd::io::Write;
+use borsh::io::Write;
 use std::slice::Iter;
 
 use borsh::{BorshDeserialize, BorshSchema, BorshSerialize};
